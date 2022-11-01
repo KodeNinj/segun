@@ -6,7 +6,9 @@
 
 :root{
   --bg: #0E1C36;
+  --bg2: #0f1a30;
   --secondary: #29E7CD;
+  --grey: #1799632a;
 }
 
 *{

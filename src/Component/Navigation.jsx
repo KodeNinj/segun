@@ -7,7 +7,7 @@ const Navigation = () => {
         setisOn(!isOn)
     }
   return (
-    <nav className='flex items-center justify-between border-b-slate-100 shadow-md lg:px-[100px] md:px-[40px] sm:px-[30px] px-[25px] h-[90px] bg-[var(--bg)] fixed w-full top-0'>
+    <nav className='flex items-center justify-between border-b-slate-100 shadow-md  lg:px-[100px] md:px-[40px] sm:px-[30px] px-[25px] h-[90px] bg-[var(--bg)] sticky w-full top-0 z-[100]'>
         <div id="logo" className=' text-xl sm:text-3xl font-[600] z-[3]'>
             <h3 className='text-white'>SE<span className='text-[var(--secondary)]'>GUN</span></h3>
         </div>
