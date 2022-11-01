@@ -6,9 +6,8 @@ const App = () => {
   return (
     <div className='bg-[var(--bg)] min-h-[120vh]'>
       <Navigation/>
-      <div className='mt-[90px]'>
+      
         <Skills/>
-      </div>
     </div>
   )
 }
