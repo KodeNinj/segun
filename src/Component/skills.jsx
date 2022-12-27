@@ -5,7 +5,7 @@ import Box from './Box'
 const Skills = () => {
   
   return (
-    <section className='py-[41px] text-white z-[-1]'>
+    <section className='py-[40px] text-white z-[-1]'>
       <Title small='MY SKILLS' large='What I Know'/>  
       <div id="topskills"  className='flex flex-wrap justify-center items-center gap-8 mt-[40px] '>
         {skills.slice(0,5).map((e)=>{
