@@ -1,13 +1,12 @@
 import React from 'react'
-import Navigation from './Component/Navigation'
 import Skills from './Component/skills'
 import './index.css'
+import Hero from './sections/Hero'
 const App = () => {
   return (
     <div className='bg-[var(--bg)] min-h-[120vh]'>
-      <Navigation/>
-      
-        <Skills/>
+      <Hero/>
+      <Skills/>
     </div>
   )
 }
