@@ -4,7 +4,7 @@ import './index.css'
 import Hero from './sections/Hero'
 const App = () => {
   return (
-    <div className='bg-[var(--bg)] min-h-[120vh]'>
+    <div className='bg-[var(--bg)] min-h-[120vh] '>
       <Hero/>
       <Skills/>
     </div>
