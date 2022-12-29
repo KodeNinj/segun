@@ -1,31 +1,25 @@
 import React from 'react'
 import Navigation from '../Component/Navigation'
 import vid from '../assets/vid.mp4'
+import heroimg from '../assets/heroimg.png'
 const Hero = () => {
   return (
-    <div className='h-screen min-w-screen relative'>
+    <div className='min-h-screen w-screen relative' id='home'>
         
         <Navigation/>
         <video src={vid} autoPlay loop muted  className='w-[100vw] h-full object-fill top-0 absolute z-[1] opacity-10'></video>
-        <div className="codebox w-full md:w-[60vw] h-[60vh] md:h-[60vh]  md:w-[50%] md:mx-[25%] mt-[5%] z-[4] absolute top-[100px] flex items-center justify-center flex-col ">
-            <div className="containers">
-                <div className="top">
-                    <h2 className='text-2xl md:text-4xl text-white'><code><span className='text-blue-500'>const</span> <span className=''>meetMe</span> = <span className='text-[var(--yellow)]'>&#x2774;</span></code></h2>
-                </div>
-                {/* end of first line */}
-                <div className="second md:my-[40px] my-[20px]  pl-[60px]">
-                    <h2 className='text-2xl md:text-4xl text-white '><code><span className='text-green-500'>name</span> : <span className=''>"Segun",</span></code></h2>
-                </div>
-                {/* end of second line */}
-                <div className="third mt-[20px]  pl-[60px]">
-                    <h2 className=' text-2xl md:text-4xl text-white '><code><span className='text-green-500'>skills</span> : <span className=''>"Frontend Dev"</span></code></h2>
-                </div>
-                {/* end of third line */}
-                <div className="third md:my-[40px] my-[20px]  pl-[60px]">
-                    <h2 className=' text-2xl md:text-4xl text-white text-[var(--yellow)]'>&#x2775;</h2>
-                </div>
+        <div className="hero flex md:flex-row flex-col justify-center md:justify-around  items-center   min-h-[100vh] z-[3] absolute md:w-[90vw] w-full md:ml-[5vw] pt-[90px]  gap-[30px] ">
+            <div className="left  w-full md:w-[50%] text-white flex flex-col items-center ">
+                <h4 className='md:text-xl lg:text-2xl lg:text-3xl text-white font-medium'>Smart People Writes Codes</h4>
+                <h2 className=' md:text-3xl lg:text-5xl text-4xl font-bold my-[30px]'>I Writes <span className='text-[var(--secondary)]'> Solutions</span></h2>
+                <h4 className='md:text-xl lg:text-3xl'>Want to know how?</h4>
+                <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:block hidden'>Get Started</button>
             </div>
-
+            {/* end of left side of hero */}
+            <div className="right  w-[100%] lg:w-[45%] md:w-[60%] ">
+                <img src={heroimg} alt="a young boy smiling" className='w-[60%] md:w-[70%] lg:w-[90%] ml-[20%] md:ml-[10%]' />
+                <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] ml-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:hidden block '>Get Started</button>
+            </div>
         </div>
     </div>
   )
