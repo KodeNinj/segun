@@ -7,7 +7,7 @@ const Hero = () => {
     <div className='min-h-screen w-screen relative' id='home'>
         
         <Navigation/>
-        <video src={vid} autoPlay loop muted  className='w-[100vw] h-full object-fill top-0 absolute z-[1] opacity-10'></video>
+        <video src={vid} autoPlay loop muted  className='w-full h-full object-cover  left-0 top-0 absolute z-[1] opacity-10'></video>
         <div className="hero flex md:flex-row flex-col justify-center md:justify-around  items-center   min-h-[100vh] z-[3] absolute md:w-[90vw] w-full md:ml-[5vw] pt-[90px]  gap-[30px] ">
             <div className="left  w-full md:w-[50%] text-white flex flex-col items-center ">
                 <h4 className='md:text-xl text-xl lg:text-2xl text-white font-medium'>Smart People Writes Codes</h4>
