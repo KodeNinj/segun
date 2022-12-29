@@ -16,7 +16,7 @@ const Navigation = () => {
             <ul id="web" className='hidden md:flex items-center justify-around text-white '>
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
-                <li>Skills</li>
+                <li><a href="#skills">Skills</a></li>
                 <li>Projects</li>
                 <li>Contact</li>
             </ul>
@@ -33,7 +33,7 @@ const Navigation = () => {
             <ul className='flex flex-col items-center text-xl text-white my-[calc(90px*1.3)] '>
                 <a href="#home" onClick={()=>setisOn(!isOn)} className='w-full'><li >Home</li></a>
                 <a href="#about" onClick={()=>setisOn(!isOn)} className='w-full'><li >About</li></a>
-                <li>Skills</li>
+                <a href="#skills" onClick={()=>setisOn(!isOn)} className='w-full'><li >Skills</li></a>
                 <li>Projects</li>
                 <li>Contact</li>
                 <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] text-[var(--bg)]'>Download CV</button>

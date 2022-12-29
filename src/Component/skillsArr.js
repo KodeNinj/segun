@@ -47,12 +47,8 @@ import wp  from '../assets/wp.png'
         img: ps
     },
     {
-        name: 'Wordpress',
+        name: 'Git & GitHub',
         img: wp
-    },
-    {
-        name: 'Wordpress',
-        img: wp
-    },
+    }
 ]
 export default skills
