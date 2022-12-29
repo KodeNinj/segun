@@ -18,7 +18,10 @@ const Hero = () => {
             {/* end of left side of hero */}
             <div className="right  w-[100%] lg:w-[45%] md:w-[60%] ">
                 <img src={heroimg} alt="a young boy smiling" className='w-[60%] md:w-[70%] lg:w-[80%] ml-[20%] md:ml-[10%]' />
-                <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] ml-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:hidden block '>Get Started</button>
+               
+            </div>
+            <div className='w-full md:hidden block'>
+            <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] ml-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:hidden block '>Get Started</button>
             </div>
         </div>
     </div>
