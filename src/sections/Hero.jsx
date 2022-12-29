@@ -12,8 +12,8 @@ const Hero = () => {
             <div className="left  w-full md:w-[50%] text-white flex flex-col items-center ">
                 <h4 className='md:text-xl text-xl lg:text-2xl text-white font-medium'>Smart People Writes Codes</h4>
                 <h2 className=' md:text-3xl lg:text-5xl text-4xl font-bold my-[30px]'>I Writes <span className='text-[var(--secondary)]'> Solutions</span></h2>
-                <h4 className='text-xl md:text-2xl  lg:text-2xl'>Want to know how?</h4>
-                <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:block hidden'>Get Started</button>
+                <h4 className='text-xl md:text-2xl  lg:text-2xl'>Want to know more?</h4>
+                <a href="#about" className='w-[100%] '><button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:block hidden' >Get Started</button></a>
             </div>
             {/* end of left side of hero */}
             <div className="right  w-[100%] lg:w-[45%] md:w-[60%] ">
@@ -21,7 +21,7 @@ const Hero = () => {
                
             </div>
             <div className='w-full md:hidden block'>
-            <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] ml-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:hidden block '>Get Started</button>
+            <a href="#about" className='w-[100%] '><button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:hidden block' >Get Started</button></a>
             </div>
         </div>
     </div>
