@@ -42,8 +42,8 @@ export const ProjectDevArray = [
 
     },
     {
-        id: 2,
-        title: "SuperDiva Website",
+        id: 3,
+        title: "portfolio Website",
         techs: ["ReactJs", "EmailJS", "Pure Css","Git"],
         link1: "https://superdiva.vercel.com",
         link2: "https://google.com",
@@ -105,7 +105,7 @@ export const ProjectDesignArray = [
 
     },
     {
-        id: 2,
+        id: 3,
         title: "Smuut Mobile App",
         techs: ["ReactJs", "EmailJS", "Pure Css","Git"],
         link1: "https://superdiva.vercel.com",

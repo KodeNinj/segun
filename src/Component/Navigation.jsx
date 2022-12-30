@@ -17,7 +17,7 @@ const Navigation = () => {
                 <li><a href="#home">Home</a></li>
                 <li><a href="#about">About</a></li>
                 <li><a href="#skills">Skills</a></li>
-                <li>Projects</li>
+                <li><a href="#project">Projects</a></li>
                 <li>Contact</li>
             </ul>
         </div>
@@ -34,7 +34,7 @@ const Navigation = () => {
                 <a href="#home" onClick={()=>setisOn(!isOn)} className='w-full'><li >Home</li></a>
                 <a href="#about" onClick={()=>setisOn(!isOn)} className='w-full'><li >About</li></a>
                 <a href="#skills" onClick={()=>setisOn(!isOn)} className='w-full'><li >Skills</li></a>
-                <li>Projects</li>
+                <a href="#project" onClick={()=>setisOn(!isOn)} className='w-full'><li >Projects</li></a>
                 <li>Contact</li>
                 <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] text-[var(--bg)]'>Download CV</button>
             </ul>
