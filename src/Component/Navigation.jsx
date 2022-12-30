@@ -38,6 +38,7 @@ const Navigation = () => {
                 <li>Contact</li>
                 <button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] text-[var(--bg)]'>Download CV</button>
             </ul>
+            
         </div>
         {/* end of mobile navigation */}
     </nav>

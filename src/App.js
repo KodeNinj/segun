@@ -1,4 +1,5 @@
 import React from 'react'
+// import DevProjects from './Component/DevProjects'
 import Skills from './Component/skills'
 import './index.css'
 import About from './sections/About'
@@ -11,7 +12,7 @@ const App = () => {
       <About/>
       <Skills/>
       <Project/>
-      
+      {/* <DevProjects/> */}
     </div>
   )
 }

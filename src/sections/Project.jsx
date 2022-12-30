@@ -1,5 +1,7 @@
 import React from 'react'
 import { useState } from 'react'
+import DesignProjects from '../Component/DesignProject'
+import DevProjects from '../Component/DevProjects'
 import Title from '../Component/Title'
 const Project = () => {
   const [devActive, setdevActive] = useState(true)
@@ -13,14 +15,14 @@ const Project = () => {
         <div className='switchbtn flex justify-center  items-center gap-[20px]'>
           <button className="dev w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white bg-[#16425B]">Dev</button>
           <button className="design w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white shadow-lg" onClick={()=>setdevActive(!devActive)}>Design</button>
-        </div> 
+        </div>  
         // if design is active
         : 
         <div className='switchbtn flex justify-center items-center gap-[20px]'>
           <button className="dev w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white " onClick={()=>setdevActive(!devActive)}>Dev</button>
           <button className="design w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white shadow-lg bg-[#16425B]">Design</button>
         </div> }
-        
+        {devActive ? <DevProjects/> : <DesignProjects/>}
         
     </section>
   )
