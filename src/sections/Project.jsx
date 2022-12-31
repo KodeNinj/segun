@@ -20,7 +20,7 @@ const Project = () => {
         : 
         <div className='switchbtn flex justify-center items-center gap-[20px]'>
           <button className="dev w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white " onClick={()=>setdevActive(!devActive)}>Dev</button>
-          <button className="design w-[150px] bg-[var(--bg2)] px-[24px] py-[12px] rounded-full text-white shadow-lg bg-[#16425B]">Design</button>
+          <button className="design w-[150px]  px-[24px] py-[12px] rounded-full text-white shadow-lg bg-[#16425B]">Design</button>
         </div> }
         {devActive ? <DevProjects/> : <DesignProjects/>}
         
