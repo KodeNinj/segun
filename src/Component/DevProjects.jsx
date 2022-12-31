@@ -11,8 +11,6 @@ const DevProjects = () => {
                 <div className='w-[350px] mb-[32px]' key={e.id} onClick={()=>{
                     setpopupDetails([e]);
                     setmodalIsOn(!modalIsOn)
-                    console.log(popupDetails);
-                    console.log(modalIsOn);
                     }}>
                     <div className='w-[350px] h-[350px] shadow-lg rounded-[16px] overflow-hidden relative'>
                         <img src={e.mainImg} alt="" className='object-cover h-[350px] w-[350px] hover:scale-125 cursor-pointer hover:grayscale ease duration-1000'/>
@@ -56,7 +54,7 @@ const DevProjects = () => {
                         </ul>
                     </div>
                     {/* the CTAs */}
-                    <div className="btns mt-[32px] flex items-center  justify-center gap-[20px] ">
+                    <div className="btns mt-[32px] flex items-center  justify-center gap-[20px] flex-wrap ">
                         <a href={popupDetails[0].link1} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] bg-[var(--secondary)] rounded-full text-xl'>View Live</button></a>
                         <a href={popupDetails[0].link2} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] border-[2px] border-[var(--secondary)] rounded-full text-xl text-white'>View Code</button></a>
                     </div>
