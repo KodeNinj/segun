@@ -30,10 +30,10 @@ const DesignProjects = () => {
             {/* the modal content */}
             {/* the modal content */}
             {/* the modal content */}
-            <div className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-auto h-[85vh] mt-[100px]">
+            <div className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-auto h-full mt-[100px]">
                 {/* the left side */}
                 <div className="left md:w-[45%] w-full px-[24px] mb-[40px] relative ">
-                    <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] h-[30vh] rounded-[20px] object-cover w-full ' />
+                    <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] h-[35vh] rounded-[20px] object-cover w-full ' />
                     {/* close btn */}
                     <button className='btn bg-red-500 text-white p-[15px] md:text-xl text-md font-bold absolute rounded-l-full top-[32px] right-[20px]' onClick={()=>setmodalIsOn(!modalIsOn)}>close me</button>
                     <p className='text-center w-full text-2xl font-bold text-[var(--secondary)] my-[20px] hidden md:block'>Snapshots</p>
@@ -45,7 +45,7 @@ const DesignProjects = () => {
                     </div>
                 </div>
                 {/* the right side */}
-                <div className="right md:w-[45%] w-full px-[24px]  overflow-y-auto">
+                <div className="right md:w-[45%] w-full px-[24px] md:h-full h-[60vh]  overflow-y-auto">
                     {/* the project tools header */}
                     <div className="toplist flex md:justify-start justify-around gap-[10px]">
                         {popupDetails[0].techs.map((tech)=>{
@@ -77,7 +77,7 @@ const DesignProjects = () => {
                     </div>
                     {/* the CTAs */}
                     <div className="btns mt-[32px] flex items-center  justify-center gap-[20px] flex-wrap ">
-                        <a href={popupDetails[0].link1} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] bg-[var(--secondary)] rounded-full text-xl'>View Live</button></a>
+                        <a href={popupDetails[0].link1} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] bg-[var(--secondary)] rounded-full text-xl'>View Prototype</button></a>
                         <a href={popupDetails[0].link2} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] border-[2px] border-[var(--secondary)] rounded-full text-xl text-white'>View Code</button></a>
                     </div>
                 
