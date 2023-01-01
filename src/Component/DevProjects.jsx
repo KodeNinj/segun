@@ -29,10 +29,10 @@ const DevProjects = () => {
             {/* the modal content */}
             {/* the modal content */}
             {/* the modal content */}
-            <div className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-y-auto h-[85vh] mt-[100px]">
+            <div className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-auto h-full mt-[100px]  ">
                 {/* the left side */}
                 <div className="left md:w-[45%] w-full px-[24px] mb-[40px] relative">
-                    <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] rounded-[20px] object-cover w-full ' />
+                    <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] h-[35vh] rounded-[20px] object-cover w-full' />
                     {/* close btn */}
                     <button className='btn bg-red-500 text-white p-[15px] md:text-xl text-md font-bold absolute rounded-l-full top-[32px] right-[20px]' onClick={()=>setmodalIsOn(!modalIsOn)}>close me</button>
                 </div>
