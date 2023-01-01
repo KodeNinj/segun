@@ -8,21 +8,26 @@ const DevProjects = () => {
     <div className='flex justify-center items-center gap-[32px] mt-[80px] flex-wrap'>
         {ProjectDevArray.map((e)=>{
             return(
-                <div className='w-[350px] mb-[32px]' key={e.id} onClick={()=>{
+                <div className='w-[350px] mb-[32px] cursor-pointer' key={e.id} onClick={()=>{
                     setpopupDetails([e]);
-                    setmodalIsOn(!modalIsOn)
+                    setmodalIsOn(!modalIsOn)  
                     }}>
                     <div className='w-[350px] h-[350px] shadow-lg rounded-[16px] overflow-hidden relative'>
-                        <img src={e.mainImg} alt="" className='object-cover h-[350px] w-[350px] hover:scale-125 cursor-pointer hover:grayscale ease duration-1000'/>
+                        <img src={e.mainImg} alt="" className='object-cover h-[350px] w-[350px] hover:scale-125  hover:grayscale ease duration-1000'/>
                         <p className='absolute top-[24px] right-[12px]  bg-[var(--bg)] text-white px-[18px] py-[10px] border-[2px] border-white rounded-full text-sm'>{e.category}</p>
                     </div>
-                <p className='text-white text-2xl text-center my-[24px] text-[20px]'>{e.title}</p>
+                <p className='text-white text-2xl text-center my-[24px] text-[20px] hover:text-[var(--secondary)] duration-300 ease'>{e.title}</p>
                 </div>
             )
         })}
         {modalIsOn ? 
         //if true
         <div className='w-[100vw]  h-[calc(100vh)] fixed top-[0px] left-[0%] z-[100] bg-[var(--bg2)] text-black flex  overflow-y-scroll overflow-x-hidden pt-[32px] pb-[100px] justify-center items-center'>
+            {/* the modal content */}
+            {/* the modal content */}
+            {/* the modal content */}
+            {/* the modal content */}
+            {/* the modal content */}
             {/* the modal content */}
             <div className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-y-auto h-[85vh] mt-[100px]">
                 {/* the left side */}
