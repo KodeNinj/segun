@@ -33,24 +33,24 @@ const DesignProjects = () => {
             <div className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-auto h-full mt-[100px]">
                 {/* the left side */}
                 <div className="left md:w-[45%] w-full px-[24px] mb-[40px] relative ">
-                    <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] h-[35vh] rounded-[20px] object-cover w-full ' />
+                <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] h-[35vh] rounded-[20px] object-cover w-full' />
                     {/* close btn */}
                     <button className='btn bg-red-500 text-white p-[15px] md:text-xl text-md font-bold absolute rounded-l-full top-[32px] right-[20px]' onClick={()=>setmodalIsOn(!modalIsOn)}>close me</button>
                     <p className='text-center w-full text-2xl font-bold text-[var(--secondary)] my-[20px] hidden md:block'>Snapshots</p>
                     <div className="bottomImg flex justify-start gap-[2%] items-center flex-wrap w-full mt-[32px]">
                         {/* map through other images in the array */}
                         {popupDetails[0].otherImgs.map((images)=>{
-                            return <img src={images} alt="product imaes" className='w-[calc(98%/2)] mb-[20px] min-h-[200px] object-cover rounded-[20px] md:block hidden'  />
+                            return <img src={images} alt="product imaes" key={images.id} className='w-[calc(98%/2)] mb-[20px] min-h-[200px] object-cover rounded-[20px] md:block hidden'  />
                         })}
                     </div>
                 </div>
                 {/* the right side */}
-                <div className="right md:w-[45%] w-full px-[24px] md:h-full h-[60vh]  overflow-y-auto">
+                <div className="right md:w-[45%] w-full px-[24px] md:h-full h-[50vh]">
                     {/* the project tools header */}
                     <div className="toplist flex md:justify-start justify-around gap-[10px]">
                         {popupDetails[0].techs.map((tech)=>{
                             return (
-                                    <p className='text-sm w-[30%] md:text-[12px] flex-wrap text-white bg-[#16425B] shadow-xl px-[15px] inline py-[12px]  rounded-[10px] min-w-[70px] text-center'>{tech}</p>
+                                    <p className='text-sm w-[30%] md:text-[12px] flex-wrap text-white bg-[#16425B] shadow-xl px-[15px] inline py-[12px]  rounded-[10px] min-w-[70px] text-center' key={tech.index}>{tech}</p>
                             )
                         })}
                         {/* end of the map block */}
@@ -68,7 +68,7 @@ const DesignProjects = () => {
                     </div>
                     {/* other images */}
                     <div className='w-full'>
-                        <p className='text-center w-full text-2xl font-bold text-[var(--secondary)] my-[20px]'>Snapshots</p>
+                        <p className='text-center w-full text-2xl font-bold text-[var(--secondary)] my-[20px] md:hidden block '>Snapshots</p>
                         <div className="theImgflex flex justify-center items-center gap-[2%] flex-wrap">
                     {popupDetails[0].otherImgs.map((images)=>{
                             return <img src={images} alt="product imaes" className='w-[calc(98%/2)] mb-[20px] min-h-[200px] object-cover rounded-[20px] md:hidden block'  />
@@ -78,7 +78,7 @@ const DesignProjects = () => {
                     {/* the CTAs */}
                     <div className="btns mt-[32px] flex items-center  justify-center gap-[20px] flex-wrap ">
                         <a href={popupDetails[0].link1} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] bg-[var(--secondary)] rounded-full text-xl'>View Prototype</button></a>
-                        <a href={popupDetails[0].link2} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] border-[2px] border-[var(--secondary)] rounded-full text-xl text-white'>View Code</button></a>
+                        <a href={popupDetails[0].link2} rel="noreferrer"><button className='px-[24px] py-[12px] border-[2px] border-[var(--secondary)] rounded-full text-xl text-white'>Go to Behance</button></a>
                     </div>
                 
                 </div>
