@@ -28,4 +28,10 @@
   #mobile-links button{
     @apply mt-8  shadow
   }
+  input, textarea{
+    @apply text-[var(--secondary)] outline-none  p-[20px] bg-[var(--bg2)] shadow-lg mb-[40px] caret-[var(--secondary)] rounded-[10px]  focus:border-[var(--secondary)] focus:border-[1px] w-full  md:mx-0
+  }
+  ::placeholder{
+    @apply text-slate-100
+  }
 }
