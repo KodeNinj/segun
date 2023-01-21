@@ -11,6 +11,7 @@ const Contact = () => {
         </div>
         {/* the address section */}
         <div className="right lg:w-[50vw] w-full">
+          <h4 className='text-xl font-bold text-[var(--secondary)] mb-[20px]'>Send A Message</h4>
           <form action="post" className='flex flex-col  my-[20px] lg:my-0 '>
             {/* <label htmlFor="fullname">Your name </label> */}
             <input type="text" name='fullname' placeholder='Your name' required/>
