@@ -14,10 +14,10 @@ const Contact = () => {
           <h4 className='text-xl font-bold text-[var(--secondary)] mb-[20px]'>Send A Message</h4>
           <form action="post" className='flex flex-col  my-[20px] lg:my-0 '>
             {/* <label htmlFor="fullname">Your name </label> */}
-            <input type="text" name='fullname' placeholder='Your name' required/>
+            <input type="text" name='fullname' placeholder='Your name' required autoComplete='off'/>
             
             {/* <label htmlFor="email">Email Address</label> */}
-            <input type="text" name='email' placeholder='Email Address' typeof='email' required/>
+            <input type="text" name='email' placeholder='Email Address' typeof='email' required autoComplete='off'/>
 
             {/* <label htmlFor="message">Enter Message</label> */}
             <textarea name="message" id="message" cols="50" rows="10" placeholder='Enter Message' className='text-[var(--secondary)] bg-[var(--bg2)] p-[20px]' required></textarea>
