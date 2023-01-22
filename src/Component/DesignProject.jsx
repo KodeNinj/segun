@@ -5,18 +5,18 @@ const DesignProjects = () => {
     const [popupDetails, setpopupDetails] = useState("default")
     const [modalIsOn, setmodalIsOn] = useState(false)
   return (
-    <div className='flex justify-center items-center gap-[32px] mt-[80px] flex-wrap'>
+    <div className='flex justify-center items-center gap-[32px] mt-[80px] flex-wrap' >
         {ProjectDesignArray.map((e)=>{
             return(
-                <div className='w-[350px] mb-[32px] cursor-pointer' key={e.id} onClick={()=>{
+                <div className='w-[350px] mb-[32px] cursor-pointer'  key={e.id} onClick={()=>{
                     setpopupDetails([e]);
                     setmodalIsOn(!modalIsOn)
                     }}>
-                    <div className='w-[350px] h-[350px] shadow-lg rounded-[16px] overflow-hidden relative'>
+                    <div data-aos='slide-up' className='w-[350px] h-[350px] shadow-lg rounded-[16px] overflow-hidden relative'>
                         <img src={e.mainImg} alt="" className='object-cover h-[350px] w-[350px] hover:w-[450px] hover:h-[450px] ease duration-1000'/>
                         <p className='absolute top-[24px] right-[12px]  bg-[var(--bg)] text-white px-[18px] py-[10px] rounded-full text-sm border-[2px] border-white'>{e.category}</p>
                     </div>
-                <p className='text-white text-2xl text-center my-[24px] text-[20px] hover:text-[var(--secondary)] duration-300 ease'>{e.title}</p>
+                <p className='text-white text-2xl text-center my-[24px] text-[20px] hover:text-[var(--secondary)] duration-300 ease' >{e.title}</p>
                 </div>
             )
         })}
