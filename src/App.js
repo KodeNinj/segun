@@ -14,6 +14,7 @@ const App = () => {
     
   }, [])
   
+
   return (
     <div className='bg-[var(--bg)] min-h-[120vh]  overflow-hidden'>
       <Hero/>
