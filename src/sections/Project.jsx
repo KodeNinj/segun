@@ -6,7 +6,7 @@ import Title from '../Component/Title'
 const Project = () => {
   const [devActive, setdevActive] = useState(true)
   return (
-    <section className='min-h-screen py-[60px ] md:px-[80px] px-[20px] mt-[80px]' id='project'>
+    <section className='min-h-screen py-[60px ] md:px-[80px] px-[20px] mt-[80px]' id='project' >
         <Title small='PROJECTS' large="What I've done"/>
         <p className='my-[32px] md:w-[80%] md:mx-[10%] text-xl text-white text-center leading-[38px] font-small'>Here are the few projects I worked on over the months. Toggle between the design projects and the Frontend Development projects using the switch below </p>
         {/* the swith button for dev and design */}

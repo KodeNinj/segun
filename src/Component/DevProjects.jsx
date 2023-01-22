@@ -5,14 +5,14 @@ const DevProjects = () => {
     const [popupDetails, setpopupDetails] = useState("default")
     const [modalIsOn, setmodalIsOn] = useState(false)
   return (
-    <div className='flex justify-center items-center gap-[32px] mt-[80px] flex-wrap'>
+    <div className='flex justify-center items-center gap-[32px] mt-[80px] flex-wrap' data-aos='slide-up'>
         {ProjectDevArray.map((e)=>{
             return(
                 <div className='w-[350px] mb-[32px] cursor-pointer' key={e.id} onClick={()=>{
                     setpopupDetails([e]);
                     setmodalIsOn(!modalIsOn)  
                     }}>
-                    <div className='w-[350px] h-[350px] shadow-lg rounded-[16px] overflow-hidden relative'>
+                    <div data-aos='fade-up' className='w-[350px] h-[350px] shadow-lg rounded-[16px] overflow-hidden relative'>
                         <img src={e.mainImg} alt="" className='object-cover h-[350px] w-[350px] hover:scale-125  hover:grayscale ease duration-1000'/>
                         <p className='absolute top-[24px] right-[12px]  bg-[var(--bg)] text-white px-[18px] py-[10px] border-[2px] border-white rounded-full text-sm'>{e.category}</p>
                     </div>
