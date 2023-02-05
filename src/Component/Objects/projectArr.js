@@ -86,7 +86,7 @@ export const ProjectDesignArray = [
     {
         id: 1,
         title: "Harbode Website",
-        techs: ["Research", "UI/UX Design", "Prototype"],
+        techs: ["Research", "Ux Design", "Prototype"],
         link1: "https://google.com",
         link2: "#",
         mainImg: harbode1,
@@ -144,6 +144,28 @@ export const ProjectDesignArray = [
     },
     {
         id: 4,
+        title: "DWIN Bank Software",
+        techs: ["Research", "UX Design", "Prototype"],
+        link1: "#",
+        link2: "#",
+        mainImg: img1,
+        otherImgs: [harbode1, harbode2],
+        category: "Design",
+        details: "This is a FinTech cum casino software design that tends to integrate mutual savings while still performing the regular banking app functions. Apart from the mutual savings, the software also give the user opportunity to play games staking from their gaming account. This means users have different accounts on DWIN. One for general savings and the other for gaming. The features of the software include:",
+        bullet: [
+            "Multiple accounts for savings and gaming",
+            "Investment opportunities where users can contribute towards a project and gain from the profit of th project",
+            "Casino integrated feature that allows users play games and win money",
+            "Mutual contribution which the Yorubas refers to as AJO. This let users join a 10 members group, get a collection number, save money in the groups account and collect the pool contribution based on their collection number.",
+            "Ability to send money from their DWIN account to other DWIN account",
+            "Ability to send money from their DWIN account to other bank's account",
+        ]
+
+
+    },
+
+    {
+        id: 5,
         title: "Luta Social App",
         techs: ["Research", "UX Design", "Prototype"],
         link1: "#",

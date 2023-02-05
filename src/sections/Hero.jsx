@@ -4,7 +4,7 @@ import vid from '../assets/vid.mp4'
 import heroimg from '../assets/heroimg.png'
 const Hero = () => {
   return (
-    <div className='min-h-screen w-screen relative' id='home'>
+    <div className='min-h-screen w-screen relative cursor-default'  id='home'>
         
         <Navigation/>
         <video src={vid} autoPlay loop muted  className='w-full h-full object-cover  left-0 top-0 absolute z-[1] opacity-10'></video>

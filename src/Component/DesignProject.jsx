@@ -13,7 +13,7 @@ const DesignProjects = () => {
                     setmodalIsOn(!modalIsOn)
                     }}>
                     <div data-aos='slide-up' className='w-[350px] h-[350px] shadow-lg rounded-[16px] overflow-hidden relative'>
-                        <img src={e.mainImg} alt="" className='object-cover h-[350px] w-[350px] hover:w-[450px] hover:h-[450px] ease duration-1000'/>
+                        <img src={e.mainImg} alt="" className='object-cover h-[350px] w-[350px] hover:w-[450px] hover:h-[450px] hover:grayscale ease duration-1000'/>
                         <p className='absolute top-[24px] right-[12px]  bg-[var(--bg)] text-white px-[18px] py-[10px] rounded-full text-sm border-[2px] border-white'>{e.category}</p>
                     </div>
                 <p className='text-white text-2xl text-center my-[24px] text-[20px] hover:text-[var(--secondary)] duration-300 ease' >{e.title}</p>
@@ -23,14 +23,14 @@ const DesignProjects = () => {
         
         {modalIsOn ? 
         //if true
-        <div className='w-[100vw]  h-[calc(100vh)] fixed top-[0px] left-[0%] z-[100] bg-[var(--bg2)] text-black flex  overflow-y-scroll overflow-x-hidden pt-[32px] pb-[100px] justify-center items-center'>
+        <div  className='w-[100vw]  h-[calc(100vh)] fixed top-[0px] left-[0%] z-[100] bg-[var(--bg2)] text-black flex  overflow-y-scroll overflow-x-hidden pt-[32px] pb-[100px] justify-center items-center'>
             {/* the modal content */}
             {/* the modal content */}
             {/* the modal content */}
             {/* the modal content */}
             {/* the modal content */}
             {/* the modal content */}
-            <div className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-auto h-full mt-[100px]">
+            <div id='modal' className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-auto h-full pt-[50px] ">
                 {/* the left side */}
                 <div className="left md:w-[45%] w-full px-[24px] mb-[40px] relative ">
                 <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] h-[35vh] rounded-[20px] object-cover w-full' />
@@ -47,10 +47,10 @@ const DesignProjects = () => {
                 {/* the right side */}
                 <div className="right md:w-[45%] w-full px-[24px] md:h-full h-[50vh]">
                     {/* the project tools header */}
-                    <div className="toplist flex md:justify-start justify-around gap-[10px]">
+                    <div className="toplist flex md:justify-start items-center justify-around gap-[10px]">
                         {popupDetails[0].techs.map((tech)=>{
                             return (
-                                    <p className='text-sm w-[30%] md:text-[12px] flex-wrap text-white bg-[#16425B] shadow-xl px-[15px] inline py-[12px]  rounded-[10px] min-w-[70px] text-center' key={tech.index}>{tech}</p>
+                                    <p className='text-sm w-[30%] md:text-[12px] flex items-center justify-center min-h-[30px] flex-wrap text-white bg-[#16425B] shadow-xl  inline py-[12px]  rounded-[10px] min-w-[70px] text-center' key={tech.index}>{tech}</p>
                             )
                         })}
                         {/* end of the map block */}

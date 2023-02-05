@@ -5,7 +5,7 @@ import heroimg from '../assets/me.png'
 
 const About = () => {
   return (
-    <div className='min-h-[90vh] text-white flex justify-center items-center py-[80px] md:flex-row w-screen flex-col-reverse' id='about'  >
+    <div className='min-h-[90vh] text-white flex cursor-default justify-center items-center py-[80px] md:flex-row w-screen flex-col-reverse' id='about'  >
         <div className="lefts md:w-[45%] w-[100%] ">
         <img src={heroimg} alt="a young boy smiling" className='w-[60%] md:w-[70%] lg:w-[80%] ml-[20%] md:ml-[10%]' />
         </div>

@@ -5,7 +5,7 @@ import Box from './Box'
 const Skills = () => {
   
   return (
-    <section className='py-[40px] text-white z-[-1]' id='skills' data-aos='slide-up'>
+    <section className='py-[40px] text-white z-[-1] cursor-default' id='skills' data-aos='slide-up'>
       <div className='flex justify-center items-center text-center'>
         <Title small='PROFICIENCY' large="What I work with" />
         </div>  
