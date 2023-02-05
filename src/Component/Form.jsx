@@ -21,7 +21,9 @@ const ContactUs = () => {
       setname('');
       setemail('');
       setmessage('');
-      toast("Mail sent successfully!");
+      toast.success('🦄 Mail sent successfully!', {
+        theme: "dark",
+        });
   };
 
   return (
