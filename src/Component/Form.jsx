@@ -7,6 +7,7 @@ const ContactUs = () => {
     const [name, setname] = useState('')
     const [email, setemail] = useState('')
     const [message, setmessage] = useState('')
+    const [subject, setsubject] = useState('')
   const form = useRef();
 
   const sendEmail = (e) => {
@@ -21,6 +22,7 @@ const ContactUs = () => {
       setname('');
       setemail('');
       setmessage('');
+      setsubject('');
       toast.success('🦄 Mail sent successfully!', {
         theme: "dark",
         });
@@ -33,6 +35,9 @@ const ContactUs = () => {
     
     {/* <label htmlFor="email">Email Address</label> */}
     <input type="text" name='user_email' placeholder='Email Address' typeof='email' value={email} required autoComplete='off' onChange={(e)=>setemail(e.value)}/>
+    
+    {/* <label htmlFor="email">subject</label> */}
+    <input type="text" name='subject' placeholder='Subject' typeof='text' value={subject} required autoComplete='off' onChange={(e)=>setsubject(e.value)}/>
 
     {/* <label htmlFor="message">Enter Message</label> */}
     <textarea name="user_message" id="message" value={message} cols="50" rows="10" placeholder='Enter Message' className='text-[var(--secondary)] bg-[var(--bg2)] p-[20px]' required onChange={(e)=>setmessage(e.value)}></textarea>
