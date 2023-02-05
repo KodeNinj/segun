@@ -1,7 +1,8 @@
 import React, { useRef } from 'react';
 import emailjs from '@emailjs/browser';
 import { useState } from 'react';
-
+import { toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const ContactUs = () => {
     const [name, setname] = useState('')
     const [email, setemail] = useState('')
@@ -20,10 +21,11 @@ const ContactUs = () => {
       setname('');
       setemail('');
       setmessage('');
+      toast("Mail sent successfully!");
   };
 
   return (
-    <form action="post" ref={form} onSubmit={sendEmail} className='flex flex-col  my-[20px] lg:my-0 '>
+    <form action="post" ref={form} onSubmit={sendEmail } className='flex flex-col  my-[20px] lg:my-0 '>
     {/* <label htmlFor="fullname">Your name </label> */}
     <input type="text" name="user_name" placeholder='Your name' value={name}  required autoComplete='off' onChange={(e)=>setname(e.value)}/>
     
@@ -33,7 +35,8 @@ const ContactUs = () => {
     {/* <label htmlFor="message">Enter Message</label> */}
     <textarea name="user_message" id="message" value={message} cols="50" rows="10" placeholder='Enter Message' className='text-[var(--secondary)] bg-[var(--bg2)] p-[20px]' required onChange={(e)=>setmessage(e.value)}></textarea>
 
-    <button type="submit" className='bg-[var(--secondary)] p-[20px] rounded-[10px] mt-[20px] text-[var(--bg)] font-bold hover:bg-slate-300  duration-[1s] w-full'>Send Message</button>
+    <button type="submit" className='bg-[var(--secondary)] p-[20px] rounded-[10px] mt-[20px] text-[var(--bg)] font-bold hover:bg-slate-300  duration-[1s] w-full' >Send Message</button>
+   
   </form>
   );
 };

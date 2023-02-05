@@ -3,6 +3,7 @@ import ContactUs from './Form'
 import Title from './Title'
 
 const Contact = () => {
+  
   return (
     <section className='my-[80px] min-h-[100vh] px-[30px] md:px-[0] w-[100vw]' id='contact' data-aos='slide-up'>
        <Title small="CONTACTS" large="How To Reach Me"/>
