@@ -2,6 +2,7 @@ import React from 'react'
 import Navigation from '../Component/Navigation'
 import vid from '../assets/vid.mp4'
 import heroimg from '../assets/heroimg.png'
+import Typewriter from 'typewriter-effect';
 const Hero = () => {
   return (
     <div className='min-h-screen w-screen relative cursor-default'  id='home'>
@@ -11,7 +12,23 @@ const Hero = () => {
         <div className="hero flex md:flex-row flex-col justify-center md:justify-around  items-center   min-h-[100vh] z-[3] absolute md:w-[90vw] w-full md:ml-[5vw] pt-[90px]  gap-[30px] ">
             <div className="left  w-full md:w-[50%] text-white flex flex-col items-center ">
                 <h4 className='md:text-xl text-xl lg:text-2xl text-white font-medium'>Smart People Writes Codes</h4>
-                <h2 className=' md:text-3xl lg:text-5xl text-4xl font-bold my-[30px]'>I Writes <span className='text-[var(--secondary)]'> Solutions</span></h2>
+                <div className=' md:text-3xl lg:text-5xl text-4xl font-bold my-[30px] flex justify-center items-center gap-[10px]'>
+                <h2>I</h2>
+
+                {/* the typing effect on the hero page */}
+                 <div className='text-[var(--secondary)]'>
+                  <Typewriter options={{
+                  strings: ['Code', 'Design'],
+                  autoStart: true,
+                  loop: true,
+                  cursor: null
+                }} /> 
+                </div>
+
+                <h2>Solutions</h2>
+                
+                </div>
+                
                 <h4 className='text-xl md:text-2xl  lg:text-2xl'>Want to know more?</h4>
                 <a href="#about" className='w-[100%] '><button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:block hidden' >Get Started</button></a>
             </div>
