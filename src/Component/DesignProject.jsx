@@ -46,25 +46,33 @@ const DesignProjects = () => {
                 </div>
                 {/* the right side */}
                 <div className="right md:w-[45%] w-full px-[24px] md:h-full h-[50vh]">
-                    {/* the project tools header */}
-                    <div className="toplist flex md:justify-start items-center justify-around gap-[10px]">
+                    
+                    {/* the title */}
+                    <h3 className='text-2xl md:text-3xl mb-[10px] text-[var(--secondary)] text-center md:text-left capitalize'>{popupDetails[0].title} (design project)</h3>
+
+                        {/* the project tools header */}
+                    <div className="toplist flex md:justify-between my-[24px] items-center justify-around gap-[10px]">
                         {popupDetails[0].techs.map((tech)=>{
                             return (
-                                    <p className='text-sm w-[30%] md:text-[12px] flex items-center justify-center min-h-[30px] flex-wrap text-white bg-[#16425B] shadow-xl  inline py-[12px]  rounded-[10px] min-w-[70px] text-center' key={tech.index}>{tech}</p>
+                                    <p className='text-sm w-[30%] md:text-[12px] flex items-center justify-center min-h-[30px] flex-wrap text-white bg-[#16425B] shadow-xl  inline py-[12px]  rounded-[5px] min-w-[70px] text-center' key={tech.index}>{tech}</p>
                             )
                         })}
                         {/* end of the map block */}
                     </div>
-                    {/* the title */}
-                    <h3 className='text-2xl md:text-4xl my-[32px] text-[var(--secondary)] capitalize'>{popupDetails[0].title} <br/>(design project)</h3>
+
                     {/* the project details */}
                     <div className="details text-white w-full leading-[38px] font-light ">
+                        <p className='text-lg text-center text-[var(--secondary)] font-bold'>The Idea</p>
                         <p>{popupDetails[0].details}</p>
+                        
+                        <p>{popupDetails[0].process}</p>
                         <ul className='ml-[30px]'>
+                        <p className='text-lg text-center text-[var(--secondary)] font-bold my-[10px]'>The Process</p>
                             {popupDetails[0].bullet.map((list)=>{
                                 return <li className='w-full list-disc'>{list}</li>
                             })}
                         </ul>
+                        <p className='text-lg text-center text-[var(--secondary)] font-bold my-[10px]'>The Result</p>
                     </div>
                     {/* other images */}
                     <div className='w-full'>

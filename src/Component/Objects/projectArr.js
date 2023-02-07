@@ -1,5 +1,5 @@
 import img1 from '../../assets/img.jpg'
-// import img2 from '../../assets/man.jfif'
+import img2 from '../../assets/man.jfif'
 // import image1 from '../../assets/image1.jfif'
 import image2 from '../../assets/image2.jpg'
 import image3 from '../../assets/image3.jpg'
@@ -86,7 +86,7 @@ export const ProjectDesignArray = [
     {
         id: 1,
         title: "Harbode Website",
-        techs: ["Research", "Ux Design", "Prototype"],
+        techs: ["Research", "Wireframes", "Ux Design", "Prototype"],
         link1: "https://google.com",
         link2: "#",
         mainImg: harbode1,
@@ -125,7 +125,7 @@ export const ProjectDesignArray = [
     {
         id: 3,
         title: "Smuut Mobile App",
-        techs: ["Research", "UX Design", "Prototype"],
+        techs: ["Research", "wireframes", "UX Design", "Prototype"],
         link1: "https://superdiva.vercel.com",
         link2: "#",
         mainImg: image6,
@@ -145,7 +145,7 @@ export const ProjectDesignArray = [
     {
         id: 4,
         title: "DWIN Bank Software",
-        techs: ["Research", "UX Design", "Prototype"],
+        techs: ["Research", "Design", "Prototype"],
         link1: "#",
         link2: "#",
         mainImg: img1,
@@ -170,7 +170,7 @@ export const ProjectDesignArray = [
         techs: ["Research", "UX Design", "Prototype"],
         link1: "#",
         link2: "#",
-        mainImg: img1,
+        mainImg: img2,
         otherImgs: [harbode1, harbode2],
         category: "Design",
         details: "LUTA is a social app target towards connecting student across Nigeria.The app consist of forums that is either school specific or a general forum for all institution. Thia is a collaborative work with another badass designer with whom I worked with to ensure this project is a success. Our roles as the product dedigner for this start up app include but not limited to researching and information gathering from the intended users, analysing of data and deducing inference from the result, sketches and design of interfaces, testing, collaboration with the devs, etc. The app include the following features:",
