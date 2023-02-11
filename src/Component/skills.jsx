@@ -1,7 +1,7 @@
 import React from 'react'
 import Title from './Title'
 import skills from './skillsArr'
-import Box from './Box'
+import {Box2} from './Box'
 const Skills = () => {
   
   return (
@@ -12,7 +12,7 @@ const Skills = () => {
       <div id="topskills"  className='flex flex-wrap justify-center items-center gap-8 mt-[40px] w-[80%] ml-[10%] '>
         {skills.map((e)=>{
             return(
-                <Box bottom={e.name} />
+                <Box2 bottom={e.name} key={e.id}/>
             )
         })}
        </div>

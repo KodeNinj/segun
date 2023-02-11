@@ -3,7 +3,7 @@ import emailjs from '@emailjs/browser';
 import { useState } from 'react';
 import { toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
-const ContactUs = () => {
+const Form = () => {
     const [name, setname] = useState('')
     const [email, setemail] = useState('')
     const [message, setmessage] = useState('')
@@ -48,4 +48,4 @@ const ContactUs = () => {
   );
 };
 
-export default ContactUs
+export default Form

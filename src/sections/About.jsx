@@ -1,5 +1,5 @@
 import React from 'react'
-import Box from '../Component/Box'
+import {Box} from '../Component/Box'
 import Title from '../Component/Title'
 import heroimg from '../assets/me.png'
 
@@ -24,8 +24,8 @@ const About = () => {
                     {/* end of first top fact */}
                     <div className="bottomfact flex md:justify-start justify-center gap-[32px] flex-wrap md:flex-nowrap">
                         <Box top='Design Tool' bottom='Figma'/> 
-                        <Box top='Twitter Handle' bottom='@frontend_bros'/> 
-                        <Box top='LinkedIn Handle' bottom='Click Me'/> 
+                        <Box top='Twitter' bottom='@frontend_bros'/> 
+                        <Box top='LinkedIn' bottom='Click Me'/> 
                     </div>
                     {/* end of bottom fact */}
                 </div>
