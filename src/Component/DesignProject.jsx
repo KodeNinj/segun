@@ -30,7 +30,7 @@ const DesignProjects = () => {
             {/* the modal content */}
             {/* the modal content */}
             {/* the modal content */}
-            <div id='modal' className="container flex justify-around items-start md:flex-row flex-col w-[100%] overflow-auto h-full pt-[50px] ">
+            <div id='modal' className="container flex justify-around items-start md:flex-row-reverse flex-col w-[100%] overflow-auto h-full pt-[50px] ">
                 {/* the left side */}
                 <div className="left md:w-[45%] w-full px-[24px] mb-[40px] relative ">
                 <img src={popupDetails[0].mainImg} alt="the snapshot of the project" className='md:h-[70vh] h-[35vh] rounded-[20px] object-cover w-full' />
@@ -61,32 +61,54 @@ const DesignProjects = () => {
                     </div>
 
                     {/* the project details */}
+                    {/* the project details */}
+                    {/* the project details */}
+                    {/* the project details */}
                     <div className="details text-white w-full leading-[38px] font-light ">
+
+
+                        {/* the idea */}
                         <p className='text-lg text-center text-[var(--secondary)] font-bold'>The Idea</p>
                         <p>{popupDetails[0].details}</p>
                         
-                        <p>{popupDetails[0].process}</p>
-                        <ul className='ml-[30px]'>
+
+                        {/* the process */}
                         <p className='text-lg text-center text-[var(--secondary)] font-bold my-[10px]'>The Process</p>
-                            {popupDetails[0].bullet.map((list)=>{
-                                return <li className='w-full list-disc'>{list}</li>
+                        <ul  className='px-[20px]'>
+                        {popupDetails[0].process.map((processes)=>{
+                            return <li className='list-disc' key={processes.index}>{processes}</li>
+                        })}
+                        </ul>
+
+
+                        {/* the features */}
+                        <p className='text-lg text-center text-[var(--secondary)] font-bold my-[10px]'>The Features</p>
+                        <ul className='ml-[30px]'>
+                            {popupDetails[0].features.map((list)=>{
+                                return <li className='w-full list-disc' key={list.index}>{list}</li>
                             })}
                         </ul>
-                        <p className='text-lg text-center text-[var(--secondary)] font-bold my-[10px]'>The Result</p>
+                        
+                    
                     </div>
-                    {/* other images */}
+
+
+                    {/* The result */}
                     <div className='w-full'>
-                        <p className='text-center w-full text-2xl font-bold text-[var(--secondary)] my-[20px] md:hidden block '>Snapshots</p>
+                        <p className='text-center w-full text-lg font-bold text-[var(--secondary)] my-[20px] md:hidden block '>The Result</p>
                         <div className="theImgflex flex justify-center items-center gap-[2%] flex-wrap">
                     {popupDetails[0].otherImgs.map((images)=>{
-                            return <img src={images} alt="product imaes" className='w-[calc(98%/2)] mb-[20px] min-h-[200px] object-cover rounded-[20px] md:hidden block'  />
+                            return <img src={images} alt="product imaes" className='w-[calc(98%/2)] mb-[20px] min-h-[200px] object-cover rounded-[20px] md:hidden block' key={images.index} />
                         })}
                         </div>
                     </div>
+
+
                     {/* the CTAs */}
-                    <div className="btns mt-[32px] flex items-center  justify-center gap-[20px] flex-wrap ">
+                    <div className="btns mt-[32px] flex items-center  justify-center gap-[20px] flex-wrap md:flex-row flex-col md:w-auto w-[80%] md:pl-0 pl-[20%]">
                         <a href={popupDetails[0].link1} target='_blank' rel="noreferrer"><button className='px-[24px] py-[12px] bg-[var(--secondary)] rounded-full text-xl'>View Prototype</button></a>
                         <a href={popupDetails[0].link2} rel="noreferrer"><button className='px-[24px] py-[12px] border-[2px] border-[var(--secondary)] rounded-full text-xl text-white'>Go to Behance</button></a>
+                        <button className='px-[24px] py-[12px] border-[2px] border-red-500 w-full md:hidden rounded-full text-xl text-white' onClick={()=>setmodalIsOn(!modalIsOn)}>Close Me</button>
                     </div>
                 
                 </div>
