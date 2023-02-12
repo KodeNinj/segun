@@ -9,6 +9,7 @@ import Project from './sections/Project'
 import Aos from 'aos'
 import "aos/dist/aos.css";
 import { ToastContainer } from 'react-toastify';
+import Footer from './Component/Footer'
 // import 'react-toastify/dist/ReactToastify.css';
 
 
@@ -21,11 +22,13 @@ const App = () => {
 
   return (
     <div className='relative bg-[var(--bg)] min-h-[120vh]  overflow-hidden'>
+      
       <Hero/>
       <About/>
       <Skills data-aos='fade-up' />
       <Project data-aos='slide-up'/>
       <Contact data-aos='flip-right'/>
+      <Footer/>
       <ToastContainer />
       {/* <DevProjects/> */}
     </div>
