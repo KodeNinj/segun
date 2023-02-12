@@ -120,7 +120,7 @@ export const ProjectDesignArray = [
         mainImg: harbode1,
         otherImgs: [harbode2, harbode3, harbode4, harbode5, harbode6],
         category: "Design",
-        process: []s,
+        process: [],
         details: "This is a full project that focuses on ensuring easy and smooth way for users to find accommodation online. The project started with figuring out the pattern of online house hunting in Nigeria, Especially in Lagos. The hustle of searching for numerous apartment with beautiful images online but later discovered that the house is not what they expected it to be. Also, popular house hunting platforms in Lagos here always leave the communication with the agent to be outside the platform, this makes most house hunters be susceptible to extortion as the condition stated on their platform changes when they chat them up or even give them a call. This also makes reporting and monitoring of the agent's integrity almost impossible for these platforms. How about scammers that pose as agent on these platforms. Most of these users are not verified. Below are the proposed solutions integrated into the design of Harbode website.",
         features: [
             "User authentication means to do proper KYC for the agents who are advertising on the platform",
