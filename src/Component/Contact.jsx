@@ -48,7 +48,7 @@ const Contact = () => {
         {/* the address section */}
        <div className="containers flex justify-center lg:flex-row flex-col lg:w-[90vw] lg:mx-[5vw] pt-[50px] gap-[40px]">
           <div className="right lg:w-[50vw] w-full">
-            <h4 className='text-md md:text-xl font-bold text-[var(--secondary)] mb-[20px] text-center'>Send A Message</h4>
+            <h4 className='text-md md:text-xl font-bold text-[var(--secondary)] mb-[20px] text-center'>Want to send A Mail Instead?</h4>
             <Form/>
           </div>
         {/* the form section */}
