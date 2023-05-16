@@ -75,13 +75,12 @@ export const ProjectDevArray = [
         mainImg: image2,
         otherImgs: [],
         category: "Dev",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde saepe possimus asperiores nemo fugit omnis minus soluta doloribus, recusandae natus sed quasi neque illo quaerat odio error a laudantium dolor? Illo quo non nisi dicta, obcaecati modi odit, magnam, culpa omnis rem ipsam at. Id explicabo in dolorem corporis.",
+        details: "SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. You can do the following on the website:",
         bullet: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Preview products before adding to cart",
+            "Ability to save item as favorite",
+            "Ability to add item to cart and view",
+            "Ability to checkout using test Flutterwave API",
         ]
 
 
@@ -95,13 +94,11 @@ export const ProjectDevArray = [
         mainImg: image3,
         otherImgs: [],
         category: "Dev",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde saepe possimus asperiores nemo fugit omnis minus soluta doloribus, recusandae natus sed quasi neque illo quaerat odio error a laudantium dolor? Illo quo non nisi dicta, obcaecati modi odit, magnam, culpa omnis rem ipsam at. Id explicabo in dolorem corporis. Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde saepe possimus asperiores nemo fugit omnis minus soluta doloribus, recusandae natus sed quasi neque illo quaerat odio error a laudantium dolor? Illo quo non nisi dicta, obcaecati modi odit, magnam, culpa omnis rem ipsam at. Id explicabo in dolorem corporis.Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde saepe possimus asperiores nemo fugit omnis minus soluta doloribus, recusandae natus sed quasi neque illo quaerat odio error a laudantium dolor? Illo quo non nisi dicta, obcaecati modi odit, magnam, culpa omnis rem ipsam at. Id explicabo in dolorem corporis.",
+        details: "This is my personal portfolio. Well, that's what you are checking now. The idea behind the website is to be simple, yet stylish and elegant.  For the development, I used ReactJs (Obviously) and style it using Tailwind CSS. There are some small-quantity of some secret ingredient used in this project. Some of them which include: ",
         bullet: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "EOS library - Used to add float-in animation to the components",
+            "EmailJs - Used in handling the CONTACT ME section of the website",
+            "State management managed by React useState hook - No serious state change that could have require Redux or full state management tool",
         ]
 
 
