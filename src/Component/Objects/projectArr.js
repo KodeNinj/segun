@@ -88,7 +88,7 @@ export const ProjectDevArray = [
     {
         id: 3,
         title: "portfolio Website",
-        techs: ["ReactJs", "EmailJS", "Tailwind","Git"],
+        techs: ["ReactJs", "EmailJS", "Tailwind","AOS"],
         link1: "https://segun-fadiya.vercel.app/",
         link2: "https://google.com",
         mainImg: segun,
@@ -96,7 +96,7 @@ export const ProjectDevArray = [
         category: "Dev",
         details: "This is my personal portfolio. Well, that's what you are checking now. The idea behind the website is to be simple, yet stylish and elegant.  For the development, I used ReactJs (Obviously) and style it using Tailwind CSS. There are some small-quantity of some secret ingredient used in this project. Some of them which include: ",
         bullet: [
-            "EOS library - Used to add float-in animation to the components",
+            "AOS library - Used to add float-in animation to the components",
             "EmailJs - Used in handling the CONTACT ME section of the website",
             "State management managed by React useState hook - No serious state change that could have require Redux or full state management tool",
         ]
