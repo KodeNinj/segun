@@ -43,7 +43,7 @@ import reset from '../../assets/luta/reset.png'
 import splash from '../../assets/luta/Splash.png'
 import usages from '../../assets/luta/Usage.png'
 import user from '../../assets/luta/User.png'
-import segun from '../../assets/SEGUN.PNG'
+import segun from '../../assets/Segun.png'
 //end of image
 export const ProjectDevArray = [
     {
