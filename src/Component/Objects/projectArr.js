@@ -43,7 +43,7 @@ import reset from '../../assets/luta/reset.png'
 import splash from '../../assets/luta/Splash.png'
 import usages from '../../assets/luta/Usage.png'
 import user from '../../assets/luta/User.png'
-import segun from '../../assets/SEGUN.png'
+import segun from '../../assets/SEGUN.PNG'
 //end of image
 export const ProjectDevArray = [
     {
@@ -92,7 +92,7 @@ export const ProjectDevArray = [
         link1: "https://segun-fadiya.vercel.app/",
         link2: "https://google.com",
         mainImg: segun,
-        otherImgs: [],
+        otherImgs: [segun],
         category: "Dev",
         details: "This is my personal portfolio. Well, that's what you are checking now. The idea behind the website is to be simple, yet stylish and elegant.  For the development, I used ReactJs (Obviously) and style it using Tailwind CSS. There are some small-quantity of some secret ingredient used in this project. Some of them which include: ",
         bullet: [
