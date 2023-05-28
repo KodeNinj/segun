@@ -1,6 +1,6 @@
 //the images
 import image2 from '../../assets/image2.jpg'
-import image3 from '../../assets/image3.jpg'
+// import image3 from '../../assets/image3.jpg'
 //bakeet images
 import coverss from '../../assets/bakeets/cover.png'
 import customize from '../../assets/bakeets/customize.png'
