@@ -1,6 +1,6 @@
 import React from 'react'
 import { useState } from 'react'
-import {ProjectDesignArray} from './Objects/projectArr.js'
+import {ProjectDesignArray} from '../Objects/projectArr.js'
 const DesignProjects = () => {
     const [popupDetails, setpopupDetails] = useState("default")
     const [modalIsOn, setmodalIsOn] = useState(false)

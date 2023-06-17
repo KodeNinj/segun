@@ -1,7 +1,7 @@
 import React from 'react'
-import Title from './Title'
-import skills from './skillsArr'
-import {Box2} from './Box'
+import Title from '../Component/Title'
+import skills from '../Objects/skillsArr'
+import {Box2} from '../Component/Box'
 const Skills = () => {
   
   return (

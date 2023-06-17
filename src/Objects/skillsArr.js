@@ -59,6 +59,16 @@ import wp  from '../assets/wp.png'
         id:10,
         name: 'Git & GitHub',
         img: wp
+    },
+    {
+        id:11,
+        name: 'Bash Scripting',
+        img: wp
+    },
+    {
+        id:12,
+        name: 'Linux Shell',
+        img: wp
     }
 ]
 export default skills
