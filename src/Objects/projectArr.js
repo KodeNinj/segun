@@ -51,17 +51,25 @@ export const ProjectDevArray = [
         title: "Harbode Website",
         techs: ["ReactJs", "EmailJS", "Css","Git"],
         link1: "https://harbode.vercel.app",
-        link2: "https://google.com",
+        link2: "https://github.com/KodeNinj/harbode",
         mainImg: harbode1,
-        otherImgs: [],
+        otherImgs: [harbode2, harbode3, harbode4, harbode5, harbode6],
         category: "Dev",
-        details: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde saepe possimus asperiores nemo fugit omnis minus soluta doloribus, recusandae natus sed quasi neque illo quaerat odio error a laudantium dolor? Illo quo non nisi dicta, obcaecati modi odit, magnam, culpa omnis rem ipsam at. Id explicabo in dolorem corporis.",
+        details: "This is from the design full project that focuses on ensuring easy and smooth way for users to find accommodation online. The project started with figuring out the pattern of online house hunting in Nigeria, Especially in Lagos. The hustle of searching for numerous apartment with beautiful images online but later discovered that the house is not what they expected it to be. Also, popular house hunting platforms in Lagos here always leave the communication with the agent to be outside the platform, this makes most house hunters be susceptible to extortion as the condition stated on their platform changes when they chat them up or even give them a call. This also makes reporting and monitoring of the agent's integrity almost impossible for these platforms. How about scammers that pose as agent on these platforms. Most of these users are not verified. This project was developed with ReactJs and the styling was done using pure CSS.",
+        process: ["This project was developed with ReactJs and the styling was done using pure CSS.",
+                "The website was integrated with the ability to send emails directly and also receive an automated reply. This was used in the contact us form.",
+                "Another thing that was integrated into this project is the Toast notification that notify users that their mail has been sent successfully."
+    ],
         bullet: [
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
-            "Lorem ipsum dolor sit amet consectetur adipisicing elit.",
+            "Fully responsive landing page highlighting all the information of the platform",
+            "Explore list to view available properties and the price",
+            "Login and sign in page that is not fully integrated to accept information (this is a test project)"
+        ],
+        features: [
+            "User authentication means to do proper KYC for the agents who are advertising on the platform",
+            "User-Agent communication integrated in-situ the platform",
+            "Ability to filter properties based on your budget and preferences",
+            "Feature that ensure reporting agent, glitches, or other challenges to Harbode customer agent"
         ]
 
 
@@ -71,26 +79,35 @@ export const ProjectDevArray = [
         title: "SuperDiva Website",
         techs: ["ReactJs", "EmailJS", "Css","Git"],
         link1: "https://superdiva.vercel.app",
-        link2: "https://google.com",
+        link2: "https://github.com/KodeNinj/superdiva",
         mainImg: image2,
         otherImgs: [],
         category: "Dev",
         details: "SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. You can do the following on the website:",
-        bullet: [
-            "Preview products before adding to cart",
+        process: [
+            "This project handles states using Redux Toolkit. This project is my major first project using redux. Even the entire project is for me to familiarize with Redux and state management. A V.2 will be added that prioritize aesthetic with the impeccable state management",
+            "This project also integrate Toast alert to notify users for an item already in the cart. On the app, you have the:",
+            "Ability to Preview products before adding to cart",
             "Ability to save item as favorite",
             "Ability to add item to cart and view",
             "Ability to checkout using test Flutterwave API",
+        ],
+        
+        features: [
+            "User authentication means to do proper KYC for the agents who are advertising on the platform",
+            "User-Agent communication integrated in-situ the platform",
+            "Ability to filter properties based on your budget and preferences",
+            "Feature that ensure reporting agent, glitches, or other challenges to Harbode customer agent"
         ]
 
 
     },
     {
         id: 3,
-        title: "portfolio Website",
+        title: "portfolio Website", 
         techs: ["ReactJs", "EmailJS", "Tailwind","AOS"],
         link1: "https://segun-fadiya.vercel.app/",
-        link2: "https://google.com",
+        link2: "https://github.com/KodeNinj/segun",
         mainImg: segun,
         otherImgs: [segun],
         category: "Dev",
@@ -99,6 +116,13 @@ export const ProjectDevArray = [
             "AOS library - Used to add float-in animation to the components",
             "EmailJs - Used in handling the CONTACT ME section of the website",
             "State management managed by React useState hook - No serious state change that could have require Redux or full state management tool",
+        ],
+        process: ["fg"],
+        features: [
+            "User authentication means to do proper KYC for the agents who are advertising on the platform",
+            "User-Agent communication integrated in-situ the platform",
+            "Ability to filter properties based on your budget and preferences",
+            "Feature that ensure reporting agent, glitches, or other challenges to Harbode customer agent"
         ]
 
 
@@ -130,7 +154,8 @@ export const ProjectDesignArray = [
             "User authentication means to do proper KYC for the agents who are advertising on the platform",
             "User-Agent communication integrated in-situ the platform",
             "Ability to filter properties based on your budget and preferences",
-            "Feature that ensure reporting agent, glitches, or other challenges to Harbode customer agent"
+            "Feature that ensure reporting agent, glitches, or other challenges to Harbode customer agent",
+            "View live link here: http://segun-fadiya.vercel.app/"
         ]
 
 
