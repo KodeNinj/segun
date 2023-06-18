@@ -20,6 +20,7 @@ const About = () => {
                     <div className="topfact flex md:justify-start justify-center gap-[32px] flex-wrap md:flex-nowrap mb-[32px]">
                         <Box top='Started Since' bottom='2021'/> 
                         <Box top='Self Taught' bottom='Dev'/> 
+                        <Box top='Current Role' bottom='SRE'/> 
                         <Box top='Chill Spot' bottom='YouTube'/> 
                     </div>
                     {/* end of first top fact */}

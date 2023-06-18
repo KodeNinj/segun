@@ -117,7 +117,7 @@ export const ProjectDevArray = [
             "EmailJs - Used in handling the CONTACT ME section of the website",
             "State management managed by React useState hook - No serious state change that could have require Redux or full state management tool",
         ],
-        process: ["fg"],
+        process: ["The website was built using ReactJs and styled using Tailwind CSS coupled with little pure CSS"],
         features: [
             "User authentication means to do proper KYC for the agents who are advertising on the platform",
             "User-Agent communication integrated in-situ the platform",
