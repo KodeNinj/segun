@@ -1,6 +1,6 @@
 import React from 'react'
-import Form from '../Component/Form'
-import Title from '../Component/Title'
+import Form from '../Components/Form'
+import Title from '../Components/Title'
 import { FaWhatsapp, FaLinkedinIn, FaBehance, FaDribbble } from 'react-icons/fa';
 const Contact = () => {
   

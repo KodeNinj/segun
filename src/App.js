@@ -1,6 +1,5 @@
 import React from 'react'
 import Contact from './sections/Contact'
-// import DevProjects from './Component/DevProjects'
 import Skills from './sections/skills'
 import './index.css'
 import About from './sections/About'
@@ -25,7 +24,6 @@ const App = () => {
       <Contact />
       <Footer/>
       <ToastContainer />
-      {/* <DevProjects/> */}
     </div>
   )
 }

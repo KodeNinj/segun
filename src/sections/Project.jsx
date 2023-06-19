@@ -1,8 +1,8 @@
 import React from 'react'
 import { useState } from 'react'
-import DesignProjects from '../Component/DesignProject'
-import DevProjects from '../Component/DevProjects'
-import Title from '../Component/Title'
+import DesignProjects from '../Components/DesignProject'
+import DevProjects from '../Components/DevProjects'
+import Title from '../Components/Title'
 const Project = () => {
   const [devActive, setdevActive] = useState(true)
   return (

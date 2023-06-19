@@ -1,5 +1,5 @@
 import React from 'react'
-import Navigation from '../Component/Navigation'
+import Navigation from '../Components/Navigation'
 import vid from '../assets/vid.mp4'
 import heroimg from '../assets/heroimg.png'
 import Typewriter from 'typewriter-effect';

@@ -1,6 +1,6 @@
 import React from 'react'
-import {Box} from '../Component/Box'
-import Title from '../Component/Title'
+import {Box} from '../Components/Box'
+import Title from '../Components/Title'
 import heroimg from '../assets/me.png'
 
 const About = () => {
