@@ -34,7 +34,9 @@ const About = () => {
 						valuable asset in the world of frontend development and product
 						design.
 					</p>
-					<div className="funfact w-[90%] mx-[5%] md:mx-[0] md:w-[100%]" data-aos="slide-up">
+					<div
+						className="funfact w-[90%] mx-[5%] md:mx-[0] md:w-[100%]"
+						data-aos="slide-up">
 						<h3 className="text-2xl font-bold my-[24px] text-center">
 							Fun Facts
 						</h3>

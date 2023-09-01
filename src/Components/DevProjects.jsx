@@ -25,7 +25,7 @@ const DesignProjects = () => {
 								{e.category}
 							</p>
 						</div>
-						<p className="text-white  text- mt-[10px] mb-[24px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
+						<p className="text-white  text-center mt-[10px] mb-[24px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
 							{e.title}
 						</p>
 					</div>
@@ -121,25 +121,6 @@ const DesignProjects = () => {
 								</ul>
 							</div>
 
-							{/* The result */}
-							<div className="w-full">
-								<p className="text-center w-full text-lg font-bold text-[var(--secondary)] my-[20px] md:hidden block ">
-									The Result
-								</p>
-								<div className="theImgflex flex justify-center items-center gap-[2%] flex-wrap">
-									{popupDetails[0].otherImgs.map((images) => {
-										return (
-											<img
-												src={images}
-												alt="product images"
-												className="w-[calc(98%/2)] mb-[20px] min-h-[200px] object-cover rounded-[20px] md:hidden block"
-												key={images.index}
-											/>
-										);
-									})}
-								</div>
-							</div>
-
 							{/* the CTAs */}
 							<div className="btns mt-[32px] flex items-center  justify-center gap-[20px] flex-wrap md:flex-row flex-col md:w-auto w-[80%] md:pl-0 pl-[20%]">
 								<a
@@ -159,7 +140,7 @@ const DesignProjects = () => {
 									</button>
 								</a>
 								<button
-									className="px-[24px] py-[12px] border-[2px] border-red-500 w-full md:hidden rounded-full text-xl text-white"
+									className="px-[24px] py-[12px] border-[2px] border-red-500 md:hidden rounded-full text-xl text-white"
 									onClick={() => setmodalIsOn(!modalIsOn)}>
 									Close Me
 								</button>

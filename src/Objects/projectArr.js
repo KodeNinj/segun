@@ -1,5 +1,6 @@
 //the images
-import image2 from "../assets/image2.jpg";
+import sdiva1 from "../assets/superdiva1.png";
+import sdiva2 from "../assets/superdiva2.png";
 // import image3 from '../../assets/image3.jpg'
 //bakeet images
 import coverss from "../assets/bakeets/cover.png";
@@ -43,7 +44,7 @@ import reset from "../assets/luta/reset.png";
 import splash from "../assets/luta/Splash.png";
 import usages from "../assets/luta/Usage.png";
 import user from "../assets/luta/User.png";
-import segun from "../assets/Segun.png";
+import segun from "../assets/SEGUN/Segun.PNG";
 
 // Smuut v2
 import smuutv2 from "../assets/smuutv2.png";
@@ -90,8 +91,8 @@ export const ProjectDevArray = [
 		techs: ["ReactJs", "EmailJS", "Css", "Git"],
 		link1: "https://superdiva.vercel.app",
 		link2: "https://github.com/KodeNinj/superdiva",
-		mainImg: image2,
-		otherImgs: [],
+		mainImg: sdiva1,
+		otherImgs: [sdiva1],
 		category: "Dev",
 		details:
 			"SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is my first attempt towards creating multiple pages using ReactJS. To be honest, i focuses on different concept such as state management with Redux, API integration using Flutterwave payment gateway, etc. You can do the following on the website:",
@@ -117,8 +118,8 @@ export const ProjectDevArray = [
 		techs: ["NextJS", "EmailJS", "Tailwind", "Git"],
 		link1: "https://superdiva-v-2.vercel.app",
 		link2: "https://github.com/KodeNinj/superdiva-v-2",
-		mainImg: image2,
-		otherImgs: [],
+		mainImg: sdiva2,
+		otherImgs: [sdiva2],
 		category: "Dev",
 		details:
 			"SuperDiva is a fashion e-commerce store for women of varios age and sizes. This is a rebuild of my first project (v1). Here I am making aesthetic priority while also trying out NextJs for the first time. The following features will be added to the website soon:",
@@ -299,7 +300,11 @@ export const ProjectDesignArray = [
 		mainImg: smuutv2,
 		otherImgs: [img1, img2, img3, img4, img5, img6],
 		category: "UI Redesign",
-		process: [""],
+		process: [
+			"The Re-design process focuses on the point raised by the testers of the first version. One of them stating the background. Most users are concern about the fixed dark-blue background. In this new update, background is set as white which can be toggled between light and dark modes (this will be updated)",
+			"The dashboard: Another focus of the redesign is the dashboard. This has been updated to feature a rich display of services the app is capable of doing. Also, new features are added based on the brainstorming result. ",
+			"The design system: This has been improved to cater for modern design elements such as Input fields, cards, buttons, etc.",
+		],
 		details:
 			"Smuut App is pronounced as 'SMOOTH' which desribe the experience of the user while making transactions on the app. The rise of card theft online recently brought about this project. It focuses on creating an avenue where user can make secured payments (in-store and online) without any fear of compromising the security of their funds. This is done by integrating QR payment which is fast and reliable to ensure faster transaction time. The transaction will be forced to be within Smuut acount of the sender to Smuut account of the merchant. This way, customers don't need to wait for 20-infinity minutes just to confirm their transaction in the store as transation is processed in real time and alert will be delivered in nano seconds.  The app include the following features:",
 		features: [
