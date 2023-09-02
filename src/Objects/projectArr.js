@@ -45,7 +45,7 @@ import splash from "../assets/luta/Splash.png";
 import usages from "../assets/luta/Usage.png";
 import user from "../assets/luta/User.png";
 import segun from "../assets/SEGUN/Segun.PNG";
-
+import queez from "../assets/SEGUN/queez.png";
 // Smuut v2
 import smuutv2 from "../assets/smuutv2.png";
 import img1 from "../assets/smuutv2/img1.png";
@@ -156,6 +156,25 @@ export const ProjectDevArray = [
 			"User-Agent communication integrated in-situ the platform",
 			"Ability to filter properties based on your budget and preferences",
 			"Feature that ensure reporting agent, glitches, or other challenges to Harbode customer agent",
+		],
+	},
+	{
+		id: 5,
+		title: "iQueez - Quiz App",
+		techs: ["ReactJs", "Tailwind", "React Router", "CSS"],
+		link1: "https://i-queezs.vercel.app",
+		link2: "https://github.com/KodeNinj/i-queezs",
+		mainImg: queez,
+		otherImgs: [queez],
+		category: "Dev",
+		details:
+			"This is a short ReactJs project just to flex my React skills. The project manages the state using simple If statement with UseState. Nothing much to see here. Just a normal quiz app with some diss remark after each session.",
+		bullet: [
+			"React Router - Used in handling the different pages",
+			"State management managed by React useState hook - No serious state change that could have require Redux or full state management tool",
+		],
+		process: [
+			"The website was built using ReactJs and styled using Tailwind CSS coupled with little pure CSS",
 		],
 	},
 ];
