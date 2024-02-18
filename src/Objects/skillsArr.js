@@ -75,5 +75,17 @@ let skills = [
 		name: "Photoshop",
 		img: ps,
 	},
+	{
+		id: 11,
+		name: "Notion",
+		img: ps,
+	},
+
+	{
+		id: 12,
+		name: "UX Research",
+		img: ps,
+	},
 ];
+
 export default skills;

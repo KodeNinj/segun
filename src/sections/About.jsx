@@ -17,7 +17,10 @@ const About = () => {
 			</div>
 			{/* end of left side */}
 			<div className="rights md:w-[45%] w-[100%] md:pl-[32px] md:ml-[0] md:mb-[0] mb-[50px] md:mt-[30px]">
-				<Title small="ABOUT ME" large="Who I Am" />
+				<Title
+					small="ABOUT ME"
+					large="Who I Am"
+				/>
 				<div className="content w-full">
 					<p className=" px-[32px] md:px-[0] text-justify leading-[38px] my-[10px]">
 						Segun is a skilled junior developer specializing in frontend
@@ -40,19 +43,33 @@ const About = () => {
 						<h3 className="text-2xl font-bold my-[24px] text-center">
 							Fun Facts
 						</h3>
-						<div className="topfact flex md:justify-start justify-center gap-[32px] flex-wrap md:flex-nowrap mb-[32px]">
-							<Box top="Started Since" bottom="2022" />
-							<Box top="Self Taught" bottom="Dev" />
-							<Box top="Current Role" bottom="SRE" />
-							<Box top="Chill Spot" bottom="YouTube" />
+						<div className="topfact flex  justify-center gap-[32px] flex-wrap   mb-[32px] ">
+							<Box
+								top="Started Since"
+								bottom="2022"
+							/>
+							<Box
+								top="Self Taught"
+								bottom="Dev/Designer"
+							/>
+							<Box
+								top="Current Role"
+								bottom="SRE"
+							/>
+							<Box
+								top="Design Tool"
+								bottom="Figma"
+							/>
+							{/* <Box
+								top="Twitter"
+								bottom="@frontend_bros"
+							/> */}
+							<Box
+								top="LinkedIn"
+								bottom="Click Me"
+								link="https://ng.linkedin.com/in/femi-fadiya-segun-pelumi"
+							/>
 						</div>
-						{/* end of first top fact */}
-						<div className="bottomfact flex md:justify-start justify-center gap-[32px] flex-wrap md:flex-nowrap">
-							<Box top="Design Tool" bottom="Figma" />
-							<Box top="Twitter" bottom="@frontend_bros" />
-							<Box top="LinkedIn" bottom="Click Me" />
-						</div>
-						{/* end of bottom fact */}
 					</div>
 				</div>
 			</div>

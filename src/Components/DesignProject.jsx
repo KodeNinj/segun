@@ -1,6 +1,7 @@
 import React from "react";
 import { useState } from "react";
 import { ProjectDesignArray } from "../Objects/projectArr.js";
+import random from "../assets/random.png";
 const DesignProjects = () => {
 	const [popupDetails, setpopupDetails] = useState("default");
 	const [modalIsOn, setmodalIsOn] = useState(false);
@@ -15,9 +16,7 @@ const DesignProjects = () => {
 							setpopupDetails([e]);
 							setmodalIsOn(!modalIsOn);
 						}}>
-						<div
-							
-							className="w-[150px] h-[150px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative">
+						<div className="w-[150px] h-[150px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative">
 							<img
 								src={e.mainImg}
 								alt=""
@@ -33,6 +32,19 @@ const DesignProjects = () => {
 					</div>
 				);
 			})}
+			{/* Other random design box */}
+			<div className="cursor-pointer">
+				<div className="w-[150px] h-[150px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative">
+					<img
+						src={random}
+						alt=""
+						className="object-cover w-[150px] h-[150px] md:w-[250px] md:h-[250px] hover:w-[300px] hover:h-[300px] hover:grayscale ease duration-1000"
+					/>
+				</div>
+				<p className="text-white  text-center mt-[10px] mb-[24px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
+					Random Designs
+				</p>
+			</div>
 
 			{modalIsOn ? (
 				//if true
@@ -108,7 +120,9 @@ const DesignProjects = () => {
 								<ul className="px-[20px]">
 									{popupDetails[0].process.map((processes) => {
 										return (
-											<li className="list-disc" key={processes.index}>
+											<li
+												className="list-disc"
+												key={processes.index}>
 												{processes}
 											</li>
 										);
@@ -122,7 +136,9 @@ const DesignProjects = () => {
 								<ul className="ml-[30px]">
 									{popupDetails[0].features.map((list) => {
 										return (
-											<li className="w-full list-disc" key={list.index}>
+											<li
+												className="w-full list-disc"
+												key={list.index}>
 												{list}
 											</li>
 										);
@@ -159,7 +175,9 @@ const DesignProjects = () => {
 										View Prototype
 									</button>
 								</a>
-								<a href={popupDetails[0].link2} rel="noreferrer">
+								<a
+									href={popupDetails[0].link2}
+									rel="noreferrer">
 									<button className="px-[24px] py-[12px] border-[2px] border-[var(--secondary)] rounded-full text-xl text-white">
 										Go to Behance
 									</button>
