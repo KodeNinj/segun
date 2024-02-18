@@ -33,7 +33,10 @@ const DesignProjects = () => {
 				);
 			})}
 			{/* Other random design box */}
-			<div className="cursor-pointer">
+			<a
+				className="cursor-pointer"
+				href="https://sprinkle-fern-c4b.notion.site/My-Random-Designs-37a8817e0b1744a89ef005f0a6ce389c"
+				target="-blank">
 				<div className="w-[150px] h-[150px] md:w-[250px] md:h-[250px] shadow-lg rounded-[16px] overflow-hidden relative">
 					<img
 						src={random}
@@ -44,7 +47,7 @@ const DesignProjects = () => {
 				<p className="text-white  text-center mt-[10px] mb-[24px] text-[14px] hover:text-[var(--secondary)] duration-300 ease">
 					Random Designs
 				</p>
-			</div>
+			</a>
 
 			{modalIsOn ? (
 				//if true
