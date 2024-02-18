@@ -188,7 +188,8 @@ export const ProjectDesignArray = [
 		techs: ["Research", "Wireframes", "Ux Design", "Prototype"],
 		link1:
 			"https://www.figma.com/proto/dctHaHfpAnd5xiX2nGEXoI/Untitled?node-id=0%3A1&scaling=scale-down&starting-point-node-id=3%3A37",
-		link2: "#",
+		link2:
+			"https://www.behance.net/segunfadiya?tracking_source=search_projects%7Cfrontend",
 		mainImg: harbode1,
 		otherImgs: [harbode2, harbode3, harbode4, harbode5, harbode6],
 		category: "UI Design",
@@ -214,8 +215,10 @@ export const ProjectDesignArray = [
 		id: 2,
 		title: "Bakeet App",
 		techs: ["Research", "UI Design", "Prototype"],
-		link1: "https://superdiva.vercel.com",
-		link2: "#",
+		link1:
+			"https://www.figma.com/proto/zmXZUtrrkAW0HadMDwqLI4/Untitled?type=design&node-id=75-226&t=KTplveWiEoP1pExZ-0&scaling=scale-down&page-id=75%3A225&starting-point-node-id=75%3A226",
+		link2:
+			"https://www.behance.net/segunfadiya?tracking_source=search_projects%7Cfrontend",
 		mainImg: coverss,
 		otherImgs: [onboard, stated, pass, load, success, dash, customize],
 		category: "UI Design",
@@ -235,7 +238,8 @@ export const ProjectDesignArray = [
 		title: "Smuut Mobile App V-1",
 		techs: ["Research", "wireframes", "UX Design", "Prototype"],
 		link1: "https://superdiva.vercel.com",
-		link2: "#",
+		link2:
+			"https://www.behance.net/segunfadiya?tracking_source=search_projects%7Cfrontend",
 		mainImg: covers,
 		otherImgs: [onboarding, login, homes, scan, cart, covers],
 		category: "UX Design",
@@ -260,7 +264,8 @@ export const ProjectDesignArray = [
 		techs: ["Research", "Design", "Prototype"],
 		link1:
 			"https://www.figma.com/proto/ZxZjvukwLGf3uYwYKzWAAZ/DWIN-BANK?node-id=65%3A22&scaling=scale-down&page-id=1%3A2&starting-point-node-id=65%3A22",
-		link2: "#",
+		link2:
+			"https://www.behance.net/segunfadiya?tracking_source=search_projects%7Cfrontend",
 		mainImg: cover,
 		otherImgs: [games, bills, home, investment, peer, signup, transfer],
 		category: "UI Design",
@@ -282,7 +287,8 @@ export const ProjectDesignArray = [
 		title: "Luta Social App",
 		techs: ["Research", "UX Design", "Prototype"],
 		link1: "#",
-		link2: "#",
+		link2:
+			"https://www.behance.net/segunfadiya?tracking_source=search_projects%7Cfrontend",
 		mainImg: luta_cover,
 		otherImgs: [
 			splash,
@@ -312,10 +318,12 @@ export const ProjectDesignArray = [
 	},
 	{
 		id: 6,
-		title: "SMUUT APP V2",
+		title: "SMUUT APP V2 (Ongoing)",
 		techs: ["UI Design", "Prototype", "Figma"],
-		link1: "#",
-		link2: "#",
+		link1:
+			"https://www.figma.com/proto/T0tMjblEayNdE4N8zTUJDb/SMUUT-V2?type=design&node-id=2-1357&t=utbbGHAye07SRGsY-0&scaling=scale-down&page-id=1%3A11&starting-point-node-id=2%3A1357&show-proto-sidebar=1",
+		link2:
+			"https://www.behance.net/segunfadiya?tracking_source=search_projects%7Cfrontend",
 		mainImg: smuutv2,
 		otherImgs: [img1, img2, img3, img4, img5, img6],
 		category: "UI Redesign",
