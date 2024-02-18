@@ -116,22 +116,6 @@ const DesignProjects = () => {
 								</p>
 								<p>{popupDetails[0].details}</p>
 
-								{/* the process */}
-								<p className="text-lg text-center text-[var(--secondary)] font-bold my-[10px]">
-									The Process
-								</p>
-								<ul className="px-[20px]">
-									{popupDetails[0].process.map((processes) => {
-										return (
-											<li
-												className="list-disc"
-												key={processes.index}>
-												{processes}
-											</li>
-										);
-									})}
-								</ul>
-
 								{/* the features */}
 								<p className="text-lg text-center text-[var(--secondary)] font-bold my-[10px]">
 									The Features
@@ -143,6 +127,22 @@ const DesignProjects = () => {
 												className="w-full list-disc"
 												key={list.index}>
 												{list}
+											</li>
+										);
+									})}
+								</ul>
+
+								{/* the process */}
+								<p className="text-lg text-center text-[var(--secondary)] font-bold my-[10px]">
+									The Process
+								</p>
+								<ul className="px-[20px]">
+									{popupDetails[0].process.map((processes) => {
+										return (
+											<li
+												className="list-disc"
+												key={processes.index}>
+												{processes}
 											</li>
 										);
 									})}
