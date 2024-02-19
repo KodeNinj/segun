@@ -12,7 +12,7 @@ import Footer from './sections/Footer'
 import 'react-toastify/dist/ReactToastify.css';
 
 
-// const App = () => {
+const App = () => {
 //   useEffect(() => {
 //     Aos.init();
 //     Aos.refresh();
