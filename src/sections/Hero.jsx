@@ -29,7 +29,7 @@ const Hero = () => {
                 
                 </div>
                 
-                <h4 className='text-xl md:text-2xl  lg:text-2xl'>Want to know more?</h4>
+                <h4 className='text-xl md:text-2xl  lg:text-2xl'>Instead. Want to know more?</h4>
                 <a href="#about" className='w-[100%] '><button className='py-3 px-6 bg-[var(--secondary)] rounded-full font-[500] my-[30px] w-[60%] mx-[20%] hover:bg-slate-200 ease duration-[1s] cursor-pointer text-[var(--bg2)] font-bold md:block hidden' >Get Started</button></a>
             </div>
             {/* end of left side of hero */}
