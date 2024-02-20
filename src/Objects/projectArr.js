@@ -237,7 +237,7 @@ export const ProjectDesignArray = [
 		id: 3,
 		title: "Smuut Mobile App V-1",
 		techs: ["Research", "wireframes", "UX Design", "Prototype"],
-		link1: "https://superdiva.vercel.com",
+		link1: "#",
 		link2:
 			"https://www.behance.net/segunfadiya?tracking_source=search_projects%7Cfrontend",
 		mainImg: covers,

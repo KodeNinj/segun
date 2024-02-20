@@ -13,6 +13,7 @@ import Footer from "./sections/Footer";
 import "react-toastify/dist/ReactToastify.css";
 
 const App = () => {
+	// will add this back once I fix the issue with displacement when the top navigation is used
 	// useEffect(() => {
 	//   Aos.init();
 	//   Aos.refresh();
