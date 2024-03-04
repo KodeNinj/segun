@@ -161,7 +161,7 @@ export const ProjectDevArray = [
 	{
 		id: 5,
 		title: "iQueez - Quiz App",
-		techs: ["ReactJs", "Tailwind", "React Router", "CSS"],
+		techs: ["ReactJs", "Tailwind", "Country API", "CSS"],
 		link1: "https://iqueez.vercel.app/",
 		link2: "https://github.com/KodeNinj/i-queezs/tree/main/Queezit/queez",
 		mainImg: queez,
