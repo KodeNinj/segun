@@ -83,7 +83,7 @@ let skills = [
 
 	{
 		id: 15,
-		name: "UX Research",
+		name: "Protopie",
 		img: ps,
 	},
 ];

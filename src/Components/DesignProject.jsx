@@ -20,7 +20,7 @@ const DesignProjects = () => {
 							<img
 								src={e.mainImg}
 								alt=""
-								className="object-cover w-[150px] h-[150px] md:w-[250px] md:h-[250px] hover:w-[300px] hover:h-[300px] hover:grayscale ease duration-1000"
+								className="object-cover w-[150px] h-[150px] md:w-[250px] md:h-[250px] hover:scale-125  hover:grayscale ease duration-1000"
 							/>
 							<p className="absolute top-[10px] right-[10px]  bg-[var(--bg)] text-white px-[10px] py-[5px] rounded-full md:text-sm text-[10px] border-[2px] border-white">
 								{e.category}
